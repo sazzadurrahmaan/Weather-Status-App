@@ -16,6 +16,8 @@ searchButton.addEventListener('click',function(){
     temp.innerHTML = Math.floor(tempValue - 273);
     desc.innerHTML = descValue;
    })
+
+   .catch(err => alert("Please check your spelling !"))
  
 
 
